@@ -125,3 +125,49 @@ java -ea -cp out edu.ccrm.cli.Main
 
 # Enable assertions only for a specific package (and its subpackages)
 java -ea:edu.ccrm.service... -cp out edu.ccrm.cli.Main
+
+```
+***
+
+## Usage
+
+This section provides sample interactions with the CCRM CLI to demonstrate common operations. Run the application via Eclipse or command line as described earlier, and follow the menu prompts.
+
+### Sample CLI Usage
+
+1. **Starting the Application and Adding a Student**  
+   Upon running `Main.java`, you'll see the main menu with options like adding a student, enrolling in a course, or exporting data.
+   Example output:  
+
+![Main Menu Screenshot](Screenshots/cli_main_menu.png)
+
+2. **Adding a Student**  
+Select option 1 from the main menu and enter details when prompted.  
+Example interaction:  
+
+![Add Student Screenshot](Screenshots/student_management_(1).png)
+
+3. **Adding in Course**  
+Select option 2, then select option 1 and provide course details when prompted.  
+Example interaction:  
+
+![Adding in Course Screenshot](Screenshots/course_management_(1).png)
+
+4. **Printing Student Transcript**  
+Select option 4, then option 4 to print student transcript.  
+Example output:
+
+![Printing Student Transcript Screenshot](Screenshots/Enrollment_(4).png)
+
+5. **Creating Time Stamped Backup Folder**  
+Select option 5, then option 1 to create a new backup folder.  
+Example output:
+
+![Time Stamped Backup Folder Screenshot](Screenshots/backup_management(1).png)
+
+**Backup Folder in File Explorer**
+
+![Backup Folder in File Explorer Screenshot](Screenshots/backup_folder.png)
+
+These examples illustrate basic functionality. Refer to the codebase for full command handling and error messages.
+
